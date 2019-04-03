@@ -1,0 +1,79 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+section {
+  padding: 15px;
+  margin: 2px 0px;
+}
+
+.container {
+  height: 100%;
+  padding-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-check-input {
+  margin-left: 0 !important;
+  margin-top: .9rem !important;
+}
+
+#registrationLabelASAP, #registrationLabelScheduled {
+  margin-left: 15px;
+}
+
+label {
+  margin-left: 2px;
+  padding-top: 8px;
+}
+
+.btn {
+  min-width: 100px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.form-control {
+  max-width: 400px;
+  margin: 2px;
+}
+
+.form-group.radios {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+#agent div, #target div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+#target div label {
+  margin: 4px 0;
+}
+
+#target div button {
+  margin-left: 0;
+  margin-top: 5px;
+}
+
+#target-input {
+  display: inline !important;
+}
+
+.btns-group {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.hidden {
+  display: none !important;
+}
